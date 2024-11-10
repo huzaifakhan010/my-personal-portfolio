@@ -1,0 +1,51 @@
+.container {
+    padding-top: 2rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 2.5rem;
+  }
+  
+  .menuLink a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .menuLink a:hover {
+    color: #0070f3; 
+  }
+  
+  .menuButton {
+    display: none;
+  }
+  
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  
+    .menuButton {
+      display: block;
+    }
+  }

@@ -1,0 +1,13 @@
+/* Heading.module.css */
+
+.headingContainer {
+    text-align: center;
+    font-size: 2.25rem;
+    padding-bottom: 32px; 
+  }
+  
+  .headingText {
+    border-bottom: 4px solid currentColor;
+    display: inline-block;
+    padding-bottom: 8px;
+  }
